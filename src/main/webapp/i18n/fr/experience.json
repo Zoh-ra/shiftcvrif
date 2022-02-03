@@ -1,0 +1,29 @@
+{
+  "cvthequeApp": {
+    "experience": {
+      "home": {
+        "title": "Experiences",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Experience",
+        "createOrEditLabel": "Créer ou éditer un Experience",
+        "notFound": "Aucun Experience trouvé"
+      },
+      "created": "Un nouveau Experience a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Experience avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Experience avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Experience {{ id }} ?"
+      },
+      "detail": {
+        "title": "Experience"
+      },
+      "id": "ID",
+      "nomEntreprise": "Nom Entreprise",
+      "nomPoste": "Nom Poste",
+      "dateExperience": "Date Experience",
+      "descriptionExperience": "Description Experience",
+      "adresseExperience": "Adresse Experience",
+      "outil": "Outil"
+    }
+  }
+}

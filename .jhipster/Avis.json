@@ -1,0 +1,36 @@
+{
+  "applications": ["cvtheque"],
+  "changelogDate": "20220203103329",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "avis",
+  "fields": [
+    {
+      "fieldName": "nomAvis",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "prenomAvis",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "photoAvis",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "descriptionAvis",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateAvis",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Avis",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

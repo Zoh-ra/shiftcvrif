@@ -1,0 +1,36 @@
+{
+  "applications": ["cvtheque"],
+  "changelogDate": "20220203103629",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "contact",
+  "fields": [
+    {
+      "fieldName": "geolocalisation",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "prenom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mail",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "message",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Contact",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

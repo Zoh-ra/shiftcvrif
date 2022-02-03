@@ -1,0 +1,25 @@
+{
+  "cvthequeApp": {
+    "design": {
+      "home": {
+        "title": "Designs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Design",
+        "createOrEditLabel": "Create or edit a Design",
+        "notFound": "No Designs found"
+      },
+      "created": "A new Design is created with identifier {{ param }}",
+      "updated": "A Design is updated with identifier {{ param }}",
+      "deleted": "A Design is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Design {{ id }}?"
+      },
+      "detail": {
+        "title": "Design"
+      },
+      "id": "ID",
+      "nomDesign": "Nom Design",
+      "tauxDeDesign": "Taux De Design"
+    }
+  }
+}

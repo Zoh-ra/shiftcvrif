@@ -1,0 +1,24 @@
+{
+  "applications": ["cvtheque"],
+  "changelogDate": "20220203104229",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "design",
+  "fields": [
+    {
+      "fieldName": "nomDesign",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tauxDeDesign",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Design",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

@@ -1,0 +1,24 @@
+{
+  "applications": ["cvtheque"],
+  "changelogDate": "20220203104129",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "programmation",
+  "fields": [
+    {
+      "fieldName": "nomLangage",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tauxDeLangage",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Programmation",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

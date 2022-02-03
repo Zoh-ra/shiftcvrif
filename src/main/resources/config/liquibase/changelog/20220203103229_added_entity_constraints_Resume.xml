@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Resume.
+    -->
+    <changeSet id="20220203103229-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="porfolio_id"
+                                 baseTableName="resume"
+                                 constraintName="fk_resume__porfolio_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="portfolio"/>
+
+        <addForeignKeyConstraint baseColumnNames="programmation_id"
+                                 baseTableName="resume"
+                                 constraintName="fk_resume__programmation_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="programmation"/>
+
+        <addForeignKeyConstraint baseColumnNames="profil_id"
+                                 baseTableName="resume"
+                                 constraintName="fk_resume__profil_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="profil"/>
+
+        <addForeignKeyConstraint baseColumnNames="design_id"
+                                 baseTableName="resume"
+                                 constraintName="fk_resume__design_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="design"/>
+
+        <addForeignKeyConstraint baseColumnNames="experience_id"
+                                 baseTableName="resume"
+                                 constraintName="fk_resume__experience_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="experience"/>
+
+        <addForeignKeyConstraint baseColumnNames="etude_id"
+                                 baseTableName="resume"
+                                 constraintName="fk_resume__etude_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="etude"/>
+
+        <addForeignKeyConstraint baseColumnNames="contact_id"
+                                 baseTableName="resume"
+                                 constraintName="fk_resume__contact_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="contact"/>
+
+        <addForeignKeyConstraint baseColumnNames="langue_id"
+                                 baseTableName="resume"
+                                 constraintName="fk_resume__langue_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="langue"/>
+
+        <addForeignKeyConstraint baseColumnNames="avis_id"
+                                 baseTableName="resume"
+                                 constraintName="fk_resume__avis_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="avis"/>
+
+        <addForeignKeyConstraint baseColumnNames="adresse_id"
+                                 baseTableName="resume"
+                                 constraintName="fk_resume__adresse_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="adresse"/>
+
+        <addForeignKeyConstraint baseColumnNames="user_id"
+                                 baseTableName="resume"
+                                 constraintName="fk_resume__user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="jhi_user"/>
+    </changeSet>
+</databaseChangeLog>

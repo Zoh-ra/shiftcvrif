@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Experience.
+    -->
+    <changeSet id="20220203103829-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="adresse_experience_id"
+                                 baseTableName="experience"
+                                 constraintName="fk_experience__adresse_experience_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="adresse"/>
+
+        <addForeignKeyConstraint baseColumnNames="outil_id"
+                                 baseTableName="experience"
+                                 constraintName="fk_experience__outil_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="outil"/>
+    </changeSet>
+</databaseChangeLog>

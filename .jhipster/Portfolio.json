@@ -1,0 +1,24 @@
+{
+  "applications": ["cvtheque"],
+  "changelogDate": "20220203104029",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "portfolio",
+  "fields": [
+    {
+      "fieldName": "image",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lien",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Portfolio",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

@@ -1,0 +1,32 @@
+{
+  "applications": ["cvtheque"],
+  "changelogDate": "20220203103729",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "etude",
+  "fields": [
+    {
+      "fieldName": "nomEtude",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "anneeEtude",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Etude",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "adresse",
+      "otherEntityRelationshipName": "etude",
+      "ownerSide": true,
+      "relationshipName": "adresseEtude",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

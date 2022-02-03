@@ -1,0 +1,20 @@
+{
+  "applications": ["cvtheque"],
+  "changelogDate": "20220203103429",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "outil",
+  "fields": [
+    {
+      "fieldName": "nomOutil",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Outil",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

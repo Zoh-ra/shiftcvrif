@@ -1,0 +1,25 @@
+{
+  "cvthequeApp": {
+    "portfolio": {
+      "home": {
+        "title": "Portfolios",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Portfolio",
+        "createOrEditLabel": "Créer ou éditer un Portfolio",
+        "notFound": "Aucun Portfolio trouvé"
+      },
+      "created": "Un nouveau Portfolio a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Portfolio avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Portfolio avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Portfolio {{ id }} ?"
+      },
+      "detail": {
+        "title": "Portfolio"
+      },
+      "id": "ID",
+      "image": "Image",
+      "lien": "Lien"
+    }
+  }
+}

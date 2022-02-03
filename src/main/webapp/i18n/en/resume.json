@@ -1,0 +1,36 @@
+{
+  "cvthequeApp": {
+    "resume": {
+      "home": {
+        "title": "Resumes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Resume",
+        "createOrEditLabel": "Create or edit a Resume",
+        "notFound": "No Resumes found"
+      },
+      "created": "A new Resume is created with identifier {{ param }}",
+      "updated": "A Resume is updated with identifier {{ param }}",
+      "deleted": "A Resume is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Resume {{ id }}?"
+      },
+      "detail": {
+        "title": "Resume"
+      },
+      "id": "ID",
+      "titre": "Titre",
+      "dateCreation": "Date Creation",
+      "porfolio": "Porfolio",
+      "programmation": "Programmation",
+      "profil": "Profil",
+      "design": "Design",
+      "experience": "Experience",
+      "etude": "Etude",
+      "contact": "Contact",
+      "langue": "Langue",
+      "avis": "Avis",
+      "adresse": "Adresse",
+      "user": "User"
+    }
+  }
+}

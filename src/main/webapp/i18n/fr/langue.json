@@ -1,0 +1,24 @@
+{
+  "cvthequeApp": {
+    "langue": {
+      "home": {
+        "title": "Langues",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Langue",
+        "createOrEditLabel": "Créer ou éditer un Langue",
+        "notFound": "Aucun Langue trouvé"
+      },
+      "created": "Un nouveau Langue a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Langue avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Langue avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Langue {{ id }} ?"
+      },
+      "detail": {
+        "title": "Langue"
+      },
+      "id": "ID",
+      "langue": "Langue"
+    }
+  }
+}

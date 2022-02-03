@@ -1,0 +1,26 @@
+{
+  "cvthequeApp": {
+    "adresse": {
+      "home": {
+        "title": "Adresses",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Adresse",
+        "createOrEditLabel": "Créer ou éditer un Adresse",
+        "notFound": "Aucun Adresse trouvé"
+      },
+      "created": "Un nouveau Adresse a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Adresse avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Adresse avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Adresse {{ id }} ?"
+      },
+      "detail": {
+        "title": "Adresse"
+      },
+      "id": "ID",
+      "adresse": "Adresse",
+      "nomVille": "Nom Ville",
+      "codePostale": "Code Postale"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "applications": ["cvtheque"],
+  "changelogDate": "20220203103229",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "resume",
+  "fields": [
+    {
+      "fieldName": "titre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateCreation",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Resume",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "portfolio",
+      "otherEntityRelationshipName": "resume",
+      "ownerSide": true,
+      "relationshipName": "porfolio",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "programmation",
+      "otherEntityRelationshipName": "resume",
+      "ownerSide": true,
+      "relationshipName": "programmation",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "profil",
+      "otherEntityRelationshipName": "resume",
+      "ownerSide": true,
+      "relationshipName": "profil",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "design",
+      "otherEntityRelationshipName": "resume",
+      "ownerSide": true,
+      "relationshipName": "design",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "experience",
+      "otherEntityRelationshipName": "resume",
+      "ownerSide": true,
+      "relationshipName": "experience",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "etude",
+      "otherEntityRelationshipName": "resume",
+      "ownerSide": true,
+      "relationshipName": "etude",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "contact",
+      "otherEntityRelationshipName": "resume",
+      "ownerSide": true,
+      "relationshipName": "contact",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "langue",
+      "otherEntityRelationshipName": "resume",
+      "ownerSide": true,
+      "relationshipName": "langue",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "avis",
+      "otherEntityRelationshipName": "resume",
+      "ownerSide": true,
+      "relationshipName": "avis",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "adresse",
+      "otherEntityRelationshipName": "resume",
+      "ownerSide": true,
+      "relationshipName": "adresse",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityField": "login",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "resume",
+      "relationshipName": "user",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

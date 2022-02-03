@@ -1,0 +1,24 @@
+{
+  "cvthequeApp": {
+    "outil": {
+      "home": {
+        "title": "Outils",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Outil",
+        "createOrEditLabel": "Créer ou éditer un Outil",
+        "notFound": "Aucun Outil trouvé"
+      },
+      "created": "Un nouveau Outil a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Outil avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Outil avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Outil {{ id }} ?"
+      },
+      "detail": {
+        "title": "Outil"
+      },
+      "id": "ID",
+      "nomOutil": "Nom Outil"
+    }
+  }
+}

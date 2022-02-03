@@ -1,0 +1,26 @@
+{
+  "cvthequeApp": {
+    "etude": {
+      "home": {
+        "title": "Etudes",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Etude",
+        "createOrEditLabel": "Créer ou éditer un Etude",
+        "notFound": "Aucun Etude trouvé"
+      },
+      "created": "Un nouveau Etude a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Etude avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Etude avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Etude {{ id }} ?"
+      },
+      "detail": {
+        "title": "Etude"
+      },
+      "id": "ID",
+      "nomEtude": "Nom Etude",
+      "anneeEtude": "Annee Etude",
+      "adresseEtude": "Adresse Etude"
+    }
+  }
+}

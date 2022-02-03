@@ -1,0 +1,47 @@
+{
+  "applications": ["cvtheque"],
+  "changelogDate": "20220203103829",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "experience",
+  "fields": [
+    {
+      "fieldName": "nomEntreprise",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nomPoste",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateExperience",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "descriptionExperience",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Experience",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "adresse",
+      "otherEntityRelationshipName": "experience",
+      "ownerSide": true,
+      "relationshipName": "adresseExperience",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "outil",
+      "otherEntityRelationshipName": "experience",
+      "ownerSide": true,
+      "relationshipName": "outil",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,28 @@
+{
+  "applications": ["cvtheque"],
+  "changelogDate": "20220203103529",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "adresse",
+  "fields": [
+    {
+      "fieldName": "adresse",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nomVille",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codePostale",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Adresse",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

@@ -1,0 +1,25 @@
+{
+  "cvthequeApp": {
+    "programmation": {
+      "home": {
+        "title": "Programmations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Programmation",
+        "createOrEditLabel": "Create or edit a Programmation",
+        "notFound": "No Programmations found"
+      },
+      "created": "A new Programmation is created with identifier {{ param }}",
+      "updated": "A Programmation is updated with identifier {{ param }}",
+      "deleted": "A Programmation is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Programmation {{ id }}?"
+      },
+      "detail": {
+        "title": "Programmation"
+      },
+      "id": "ID",
+      "nomLangage": "Nom Langage",
+      "tauxDeLangage": "Taux De Langage"
+    }
+  }
+}

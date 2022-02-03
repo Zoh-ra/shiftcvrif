@@ -1,0 +1,149 @@
+application {
+  config {
+    baseName cvtheque
+    packageName fr.rif.rh.cvtech
+    authenticationType jwt
+    prodDatabaseType postgresql
+    buildTool maven
+    clientFramework react
+    enableTranslation true
+    nativeLanguage fr
+    languages [fr, en]
+  }
+  entities *
+}
+
+entity Langue {
+	langue Language
+}
+
+entity Resume {
+	titre String
+    dateCreation ZonedDateTime
+}
+
+entity Avis {
+	nomAvis String
+	prenomAvis String
+	photoAvis String
+	descriptionAvis String
+    dateAvis String
+}
+
+entity Outil {
+	nomOutil String
+}
+
+entity Adresse {
+	adresse String
+	nomVille String
+    codePostale Integer
+}
+
+entity Contact {
+	geolocalisation String
+    nom String
+    prenom String
+    mail String
+    message String
+}
+
+entity Etude {
+	nomEtude String
+	anneeEtude Instant
+}
+
+entity Experience {
+	nomEntreprise String
+	nomPoste String
+    dateExperience Instant
+    descriptionExperience String
+}
+
+entity Profil {
+    dateNaissance Instant required
+    telResume Integer
+	addressLine1 String 
+    addressLine2 String
+    city String 
+    country String 
+    profession String
+    website String
+    description String
+}
+
+entity Portfolio {
+	image String
+    lien String
+}
+
+entity Programmation {
+	nomLangage String
+    tauxDeLangage Integer
+}
+
+entity Design {
+	nomDesign String
+    tauxDeDesign Integer
+}
+
+enum Language {
+    FRENCH, ENGLISH, SPANISH
+}
+
+relationship OneToOne {
+	Experience{adresseExperience} to Adresse
+}
+
+relationship OneToOne {
+	Resume{porfolio} to Portfolio
+}
+
+relationship OneToOne {
+	Resume{programmation} to Programmation
+}
+
+relationship OneToOne {
+	Resume{profil} to Profil
+}
+
+relationship OneToOne {
+	Resume{Design} to Design
+}
+
+
+relationship OneToOne {
+	Etude{adresseEtude} to Adresse
+}
+
+relationship OneToOne {
+	Resume{experience} to Experience
+}
+
+relationship OneToOne {
+	Resume{etude} to Etude
+}
+
+relationship OneToOne {
+	Experience{outil} to Outil
+}
+
+relationship OneToOne {
+	Resume{contact} to Contact
+}
+
+relationship OneToOne {
+	Resume{langue} to Langue
+}
+
+relationship OneToOne {
+	Resume{Avis} to Avis
+}
+
+relationship OneToOne {
+	Resume{Adresse} to Adresse
+}
+
+relationship ManyToOne {
+  Resume{user(login)} to User
+}
